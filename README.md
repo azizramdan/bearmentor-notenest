@@ -20,7 +20,7 @@ Access the app here: [NoteNest](https://bearmentor-notenest.azizramdan.id/)
 
 ## Technologies Used
 
-- Next.js
+- React + TypeScript + Vite
 - Tailwind CSS
 
 ## Contributing
