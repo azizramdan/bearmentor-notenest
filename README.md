@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# NoteNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NoteNest is a task management and note-taking app heavily inspired by [Google Keep](https://google.com/keep), focusing on organizing and storing notes like a nest.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Task Management:** Users can list, add, edit, delete, and search tasks efficiently.
+- **Reminders and Notifications:** Stay on top of your tasks with reminders and notifications for upcoming deadlines.
+- **Prioritization:** Easily prioritize tasks based on their importance or deadlines.
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Register or log in to your NoteNest account.
+2. Start adding and managing your tasks and notes.
+3. Set reminders and prioritize tasks to stay organized.
 
-- Configure the top-level `parserOptions` property like this:
+## App URL
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Access the app here: [NoteNest](https://bearmentor-notenest.azizramdan.id/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
